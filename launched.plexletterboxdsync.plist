@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+   <dict>
+      <key>Label</key>
+      <string>launched.plexletterboxdsync</string>
+      <key>ProgramArguments</key>
+      <array>
+         <string>sh</string>
+         <string>start.sh</string>
+      </array>
+      <key>StandardErrorPath</key>
+      <string>/{path-for-your-file}/plex-letterboxd-sync/logger-error.text</string>
+      <key>StandardOutPath</key>
+      <string>/{path-for-your-file}/plex-letterboxd-sync/logger.text</string>
+      <key>StartCalendarInterval</key>
+      <dict>
+         <key>Minute</key>
+         <integer>0</integer>
+      </dict>
+      <key>StartInterval</key>
+      <integer>0</integer>
+      <key>UserName</key>
+      <string>{username}</string>
+      <key>WorkingDirectory</key>
+      <string>/{path-for-your-file}/plex-letterboxd-sync</string>
+   </dict>
+</plist>
